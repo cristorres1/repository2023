@@ -1,0 +1,16 @@
+listas = [1, 2, 3, 4,"HOLA", "Cristobal", 18]
+print("cantidad de elementos: ", len(listas))
+listas.append(100)
+print(listas)
+listas.insert(1, "sebastian")
+print(listas)
+listas.insert(0, "joaquín")
+listas.reverse()
+print(listas)
+listas.pop()
+print(listas)
+listas.clear()
+print(listas)
+lista3 = [1000,2000]
+listas.extend(lista3)
+print(listas)
